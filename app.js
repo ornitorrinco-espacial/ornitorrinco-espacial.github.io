@@ -456,14 +456,6 @@ var vm = new Vue({
 });
 
 $(document).ready(function(){
-	//Ativador do popover da Logo da equipe
-    $('#logoEquipe').popover({
-    	title: '<h5>Ornitorrinco Espacial<h5>',
-	 	content: '<h6>Equipe:</h6> <ul> <li>Daniela</li> <li>Guilherme</li> <li>João Victor</li> <li>Júnior</li> </ul>',
-	  	html: true,
-    	placement: 'left',
-    	trigger: 'hover'
-    });
 
     //Tooltip do ícone de ajuda
     $('#ajudar').tooltip({title: 'Sobre o infográfico', placement: 'right'});

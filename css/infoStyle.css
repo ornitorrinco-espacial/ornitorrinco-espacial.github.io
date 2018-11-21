@@ -10,7 +10,7 @@
 }
 
 .infoExpande {
-	height: 20em;
+	height: 24em;
 	background: rgb(234,164,24);
 	transition: 600ms ease all;
 }
@@ -72,8 +72,9 @@
 }
 .infoFechar {
 	position: absolute;
+	font-size: 2em;
 	right: 16px;
-	top: 10px;
+	top: 0px;
 }
 
 .info-ambiental {
