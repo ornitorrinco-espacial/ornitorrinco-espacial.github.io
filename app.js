@@ -64,119 +64,119 @@ var vm = new Vue({
 				mapaSrc: 'img/mapas/sul.png'
 			}
 		],
+		iconesBr: [
+				{
+					key: 'br00',
+					classe: 'mandioca',
+					posicao: 'left: 20vw; top: 16vh;'
+				},
+				{
+					key: 'br01',
+					classe: 'nuvem',
+					posicao: 'left: 17vw; top: 1vh;'
+				},
+				{
+					key: 'br02',
+					classe: 'nuvem',
+					posicao: 'left: 35vw; top: 17vh;'
+				},
+				{
+					key: 'br03',
+					classe: 'planta',
+					posicao: 'left: 7vw; top: 25vh;'
+				},
+				{
+					key: 'br04',
+					classe: 'arvore1',
+					posicao: 'left: 10vw; top: 35vh;'
+				},
+				{
+					key: 'br05',
+					classe: 'arvore2',
+					posicao: 'left: 23vw; top: 30vh;'
+				},
+				{
+					key: 'br06',
+					classe: 'soja',
+					posicao: 'left: 30vw; top: 32vh;'
+				},
+				{
+					key: 'br07',
+					classe: 'trigo',
+					posicao: 'left: 30vw; top: 30vh;'
+				},
+				{
+					key: 'br08',
+					classe: 'saco',
+					posicao: 'left: 19vw; top: 13vh;'
+				},
+				{
+					key: 'br09',
+					classe: 'vaca',
+					posicao: 'left: 48vw; top: 36vh;'
+				},
+				{
+					key: 'br10',
+					classe: 'porco',
+					posicao: 'left: 41vw; top: 28vh;'
+				},
+				{
+					key: 'br11',
+					classe: 'casa1',
+					posicao: 'left: 45vw; top: 2vh;'
+				},
+				{
+					key: 'br12',
+					classe: 'casa2',
+					posicao: 'left: 37vw; top: 35vh;'
+				},
+				{
+					key: 'br13',
+					classe: 'saco_cafe',
+					posicao: 'left: 45vw; top: 36vh;'
+				},
+				{
+					key: 'br14',
+					classe: 'saco_feijao',
+					posicao: 'left: 50vw; top: 17vh;'
+				},
+				{
+					key: 'br15',
+					classe: 'leite',
+					posicao: 'left: 52vw; top: 45vh;'
+				},
+				{
+					key: 'br16',
+					classe: 'casa1',
+					posicao: 'left: 8vw; top: 21vh;'
+				},
+				{
+					key: 'br17',
+					classe: 'casa1',
+					posicao: 'left: 29vw; top: 19vh;'
+				},
+				{
+					key: 'br19',
+					classe: 'saco_feijao',
+					posicao: 'left: 48vw; top: 10vh;'
+				},
+				{
+					key: 'br20',
+					classe: 'galinha',
+					posicao: 'left: 42vw; top: 32vh;'
+				},
+				{
+					key: 'br22',
+					classe: 'saco_milho',
+					posicao: 'left: 20vw; top: 20vh;'
+				},
+				{
+					key: 'br23',
+					classe: 'soja',
+					posicao: 'left: 27vw; top: 27vh;'
+				}
+			]
 		icones: {
-			br: [
-					{
-						key: 'br00',
-						classe: 'mandioca',
-						posicao: 'left: 20vw; top: 16vh;'
-					},
-					{
-						key: 'br01',
-						classe: 'nuvem',
-						posicao: 'left: 17vw; top: 1vh;'
-					},
-					{
-						key: 'br02',
-						classe: 'nuvem',
-						posicao: 'left: 35vw; top: 17vh;'
-					},
-					{
-						key: 'br03',
-						classe: 'planta',
-						posicao: 'left: 7vw; top: 25vh;'
-					},
-					{
-						key: 'br04',
-						classe: 'arvore1',
-						posicao: 'left: 10vw; top: 35vh;'
-					},
-					{
-						key: 'br05',
-						classe: 'arvore2',
-						posicao: 'left: 23vw; top: 30vh;'
-					},
-					{
-						key: 'br06',
-						classe: 'soja',
-						posicao: 'left: 30vw; top: 32vh;'
-					},
-					{
-						key: 'br07',
-						classe: 'trigo',
-						posicao: 'left: 30vw; top: 30vh;'
-					},
-					{
-						key: 'br08',
-						classe: 'saco',
-						posicao: 'left: 19vw; top: 13vh;'
-					},
-					{
-						key: 'br09',
-						classe: 'vaca',
-						posicao: 'left: 48vw; top: 36vh;'
-					},
-					{
-						key: 'br10',
-						classe: 'porco',
-						posicao: 'left: 41vw; top: 28vh;'
-					},
-					{
-						key: 'br11',
-						classe: 'casa1',
-						posicao: 'left: 45vw; top: 2vh;'
-					},
-					{
-						key: 'br12',
-						classe: 'casa2',
-						posicao: 'left: 37vw; top: 35vh;'
-					},
-					{
-						key: 'br13',
-						classe: 'saco_cafe',
-						posicao: 'left: 45vw; top: 36vh;'
-					},
-					{
-						key: 'br14',
-						classe: 'saco_feijao',
-						posicao: 'left: 50vw; top: 17vh;'
-					},
-					{
-						key: 'br15',
-						classe: 'leite',
-						posicao: 'left: 52vw; top: 45vh;'
-					},
-					{
-						key: 'br16',
-						classe: 'casa1',
-						posicao: 'left: 8vw; top: 21vh;'
-					},
-					{
-						key: 'br17',
-						classe: 'casa1',
-						posicao: 'left: 29vw; top: 19vh;'
-					},
-					{
-						key: 'br19',
-						classe: 'saco_feijao',
-						posicao: 'left: 48vw; top: 10vh;'
-					},
-					{
-						key: 'br20',
-						classe: 'galinha',
-						posicao: 'left: 42vw; top: 32vh;'
-					},
-					{
-						key: 'br22',
-						classe: 'saco_milho',
-						posicao: 'left: 20vw; top: 20vh;'
-					},
-					{
-						key: 'br23',
-						classe: 'soja',
-						posicao: 'left: 27vw; top: 27vh;'
-					}
-				],
 			no: [
 					{
 						key: 'no00',
@@ -300,43 +300,36 @@ var vm = new Vue({
 			{
 				key: 'fala0',
 				texto: 'Olá!',
-				tempo: 1500,//ms,
 				styles: 'animation: fala0 0.8s linear both; animation-iteration-count: 1; animation-delay: 2s;'
 			},
 			{
 				key: 'fala1',
 				texto: 'Meu nome é João e irei te guiar pelo infográfico.',
-				tempo: 4500,//ms,
 				styles: 'animation: fala1 3s linear both; animation-iteration-count: 1;'
 			},
 			{
 				key: 'fala2',
 				texto: 'A agricultura familiar é muito importante,',
-				tempo: 1500,//ms,
 				styles: 'animation: fala2 2.8s linear both; animation-iteration-count: 1;'
 			},
 			{
 				key: 'fala3',
 				texto: 'Gera muitos empregos e leva comida a casa de todos.',
-				tempo: 1500,//ms,
 				styles: 'animation: fala3 3.6s linear both; animation-iteration-count: 1;'
 			},
 			{
 				key: 'fala4',
 				texto: 'A sua direita, temos um mapa do Brasil divido por regiões.',
-				tempo: 1500,//ms,
 				styles: 'animation: fala4 4s linear both; animation-iteration-count: 1;'
 			},
 			{
 				key: 'fala5',
 				texto: 'Por que não tenta navegar por elas?',
-				tempo: 1500,//ms,
 				styles: 'animation: fala5 3.2s linear both; animation-iteration-count: 1;'
 			},
 			{
 				key: 'fala6',
 				texto: 'Você pode encontrar várias informações legais.',
-				tempo: 1500,//ms,
 				styles: 'animation: fala6 3.4s linear both; animation-iteration-count: 1;'
 			},
 		],
@@ -394,10 +387,8 @@ var vm = new Vue({
 			this.regiaoSelecionada = this.mapas[sel],
 			this.status++,
 			console.log(this.regiaoSelecionada);
-			this.agricultorFala = false;
-			this.agricultorAtivo = false;
-			clearInterval(this.timer);
-			this.iconesRegiao = this.icones[this.regiaoSelecionada['id']]
+			this.agricultorFala = false,	this.agricultorAtivo = false,
+			clearInterval(this.timer),	this.iconesRegiao = this.icones[this.regiaoSelecionada['id']]
 		},
 		infoIcon: function(icon) {
 			//Aciona o próximo estado, onde a informação aparece, e atribui o ícone selecionado
@@ -405,36 +396,22 @@ var vm = new Vue({
 				this.iconSelecionado = icon,
 				this.status++,
 				console.log(this.iconSelecionado)
-			} else {
-				this.iconSelecionado = icon
-			}
+			} else {	this.iconSelecionado = icon 	}
 		},
-		retornar: function() {
-			//Retornar para a tela anterior
-			if(this.status > 1) {
-				this.status--
-			}
-		},
-		fecharAgricultor: function() {
-			this.agricultorAtivo = false
-		},
+		retornar: function() {if(this.status > 1) {	this.status--	}},
+		fecharAgricultor: function() {	this.agricultorAtivo = false	},
 		proximaFala: function() {
 			if(this.contadorFala < 6){
-				console.log(this.contadorFala);
 				this.contadorFala++;
 			} else {
-				console.log("Fim");
-				this.agricultorFala = false;
-				this.agricultorAtivo = false;
-				clearInterval(this.timer);
+				this.agricultorFala = false, this.agricultorAtivo = false, clearInterval(this.timer)
 			}
 		}
 	},
 	watch: {
 		status: function() {
 			if(this.status > 3 || this.status < 1 || (this.status != 1 && this.objVazio(this.regiaoSelecionada))){
-				this.status = 1,
-				this.regSelecionada = {}
+				this.status = 1, this.regSelecionada = {}
 			}
 		}
 	},
@@ -442,21 +419,16 @@ var vm = new Vue({
 		classeMapaR: function(){
 			if(this.status == 2) {
 				return 'col-sm-10';
-			}
-			return 'col-sm-6';
+			}	return 'col-sm-6';
 		}
 	},
 	mounted: function () {
 		this.$nextTick(function () {
-			this.agricultorAtivo = true,
-			this.agricultorFala = true,
-			this.timer = setInterval(this.proximaFala, 4500)
+			this.agricultorAtivo = true, this.agricultorFala = true, this.timer = setInterval(this.proximaFala, 4500)
 		})
 	}
 });
-
 $(document).ready(function(){
-
     //Tooltip do ícone de ajuda
     $('#ajudar').tooltip({title: 'Sobre o infográfico', placement: 'right'});
 });

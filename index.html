@@ -6,12 +6,12 @@
 		<title>EcoDados</title>
 
 		<link rel="stylesheet" href="libs/normalize.css"/>
-		<link rel="stylesheet" href="libs/bootstrap.css"/>
-		<link rel="stylesheet" href="libs/font-awesome/css/all.css"/>
+		<link rel="stylesheet" href="libs/bootstrap.min.css"/>
+		<link rel="stylesheet" href="libs/font-awesome/css/all.min.css"/>
 		<script src="libs/min/jquery-3.3.1.min.js"></script>
   		<script src="libs/min/popper.min.js"></script>
   		<script src="libs/min/bootstrap.min.js"></script>
-  		<script src="libs/vue.js"></script>
+  		<script src="libs/vue.min.js"></script>
 
   		<link rel="stylesheet" href="styles.css">
 	</head>
@@ -56,7 +56,7 @@
 								  	<button type="button" class="btn btn-lg btn-outline-info botoesBrasil" @click="selecionarRegiao(4)" id="botaoSul">Sul</button>
 								</div>
 								<div class="icones">
-									<iconesmapa v-for="icone in icones['br']" :key="icone.key" :ico="icone" :clique="infoIcon"></iconesmapa>
+									<iconesmapa v-for="icone in iconesBr" :key="icone.key" :ico="icone" :clique="infoIcon"></iconesmapa>
 								</div>
 	        				</div>
 	        			</div>
