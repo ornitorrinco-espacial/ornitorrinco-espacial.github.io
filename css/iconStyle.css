@@ -17,7 +17,8 @@
     content: url("../imagens/icons/café.png");
 }
 .casa1 {
-    content: url("../img/icons/casa 1.png");
+    content: url("../img/icons/casa.png");
+    height: 10%;
 }
 .casa2 {
     width: auto;
@@ -91,6 +92,7 @@
 }
 .vaca {
     content: url("../img/icons/vaca.png");
+    height: 9%;
 }
 .arvore1 {
 	content: url("../img/icons/árvore.png");

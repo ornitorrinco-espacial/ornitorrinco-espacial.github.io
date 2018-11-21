@@ -90,9 +90,6 @@ nav {
 }
 
 .falaFazendeiro {
-	/*background: url("img/balao.png") no-repeat;
-	background-clip: border-box;
-	background-size: 10vw auto; */
 	border: 2px solid #ddd;
 	border-radius: 16px;
 	background: gray;

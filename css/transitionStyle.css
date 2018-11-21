@@ -19,7 +19,7 @@
 }
 .agricultor-leave-active {
   	animation: entrada .5s;
-    animation-delay: 2s;
+    animation-delay: 0.75s;
 }
 
 .falaagricultor-enter, .falaagricultor-leave-to {

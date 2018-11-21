@@ -113,7 +113,7 @@ var vm = new Vue({
 					{
 						key: 'br09',
 						classe: 'vaca',
-						posicao: 'left: 48vw; top: 36vh;'
+						posicao: 'left: 48vw; top: 35vh;'
 					},
 					{
 						key: 'br10',
@@ -148,12 +148,12 @@ var vm = new Vue({
 					{
 						key: 'br16',
 						classe: 'casa1',
-						posicao: 'left: 8vw; top: 21vh;'
+						posicao: 'left: 10vw; top: 21vh;'
 					},
 					{
 						key: 'br17',
 						classe: 'casa1',
-						posicao: 'left: 29vw; top: 19vh;'
+						posicao: 'left: 27vw; top: 17vh;'
 					},
 					{
 						key: 'br19',
