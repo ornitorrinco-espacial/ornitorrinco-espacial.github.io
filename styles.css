@@ -62,13 +62,16 @@ nav {
     position: absolute;
     bottom: 16px;
     right: 16px;
-    font-size: 2em;
+    font-size: 48px;
 	vertical-align: middle;
     color: black;
 }
 
 #logoEquipe {
-	height: 40px;
+	position: absolute;
+    bottom: 16px;
+    right: 96px;
+	height: 48px;
 	width: auto;
 }
 
@@ -87,14 +90,17 @@ nav {
 }
 
 .falaFazendeiro {
-	background: url("img/balao.png") no-repeat;
+	/*background: url("img/balao.png") no-repeat;
 	background-clip: border-box;
-	background-size: 10vw auto;
+	background-size: 10vw auto; */
+	border: 2px solid #ddd;
+	border-radius: 16px;
+	background: gray;
 	position: absolute;
 	top: -14%;
 	right: -16%;
-	width: 14vw;
-	height: 9vw;
+	width: 16vw;
+	height: 5vw;
 	object-fit: contain;
 }
 

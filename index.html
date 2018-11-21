@@ -6,12 +6,12 @@
 		<title>EcoDados</title>
 
 		<link rel="stylesheet" href="libs/normalize.css"/>
-		<link rel="stylesheet" href="libs/min/bootstrap.min.css"/>
-		<link rel="stylesheet" href="libs/font-awesome/css/all.min.css"/>
+		<link rel="stylesheet" href="libs/bootstrap.css"/>
+		<link rel="stylesheet" href="libs/font-awesome/css/all.css"/>
 		<script src="libs/min/jquery-3.3.1.min.js"></script>
   		<script src="libs/min/popper.min.js"></script>
   		<script src="libs/min/bootstrap.min.js"></script>
-  		<script src="libs/min/vue.min.js"></script>
+  		<script src="libs/vue.js"></script>
 
   		<link rel="stylesheet" href="styles.css">
 	</head>
@@ -20,7 +20,6 @@
 			<!-- Barra de navegação com projeto e logo da equipe -->
 			<nav class="navbar navbar-expand-sm navbar-dark fixed-top justify-content-between">
 	            <a class="navbar-brand" href="#">EcoDados</a>
-	            <img id="logoEquipe" src="img/logo-equipe.png" alt="Ornitorrinco Espacial" data-toggle="modal" data-target="#projeto"/>
 	        </nav>
 
 	        <header id="tituloInfografico">
@@ -88,6 +87,7 @@
 	        <aside>
 				<i v-show="status > 1" class="far fa-times-circle" id="voltar" @click="retornar"></i>
 				<i class="far fa-question-circle" id="ajudar" data-toggle="modal" data-target="#sobre"></i>
+				<img id="logoEquipe" src="img/logo-equipe.png" alt="Ornitorrinco Espacial" data-toggle="modal" data-target="#projeto"/>
 			</aside>
 			<article class="displayFazendeiro">
 				<transition name="agricultor" mode="out-in">
