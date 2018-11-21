@@ -1,0 +1,102 @@
+/* Icones do mapa */
+.icons {
+    position: absolute;
+    float: right;
+    width: auto;
+    height: 5vh;
+    z-index: 20;
+    transition: all 0.4s linear;
+}
+
+.icons:hover {
+    transform: scale(1.1,1.1);
+    transition: all 0.6s linear;
+}
+
+.cafe {
+    content: url("../imagens/icons/café.png");
+}
+.casa1 {
+    content: url("../img/icons/casa 1.png");
+}
+.casa2 {
+    width: auto;
+    height: 10%;
+    content: url("../img/icons/casa 2.png");
+}
+.fazendeiro {
+    content: url("../img/icons/fazendeiro.png");
+}
+.feijao {
+    content: url("../img/icons/feijão.png");
+    height: 3vh;
+}
+.galinha {
+    content: url("../img/icons/galinha.png");
+}
+.leite {
+    content: url("../img/icons/leite.png");
+}
+.mandioca {
+    content: url("../img/icons/mandioca.png");
+    height: 3vh;
+}
+.milho {
+    content: url("../img/icons/milho.png");
+    height: 3vh;
+}
+.mudinhas {
+    content: url("../img/icons/mudinhas.png");
+    height: 4vh;
+}
+.nuvem {
+    content: url("../img/icons/nuvem.png");
+    height: 7.5%;
+    transition: all 0.5s ease;
+}
+.nuvem:hover {
+    transform: translateX(-2vw) scale(1.01,1.01);
+    transition: all 0.5s ease;
+}
+.planta {
+    content: url("../img/icons/planta.png");
+    height: 7.5vh;
+}
+.porco {
+	content: url("../img/icons/porco.png");
+}
+.saco {
+	content: url("../img/icons/saco.png");
+    z-index: 18;
+}
+.saco_feijao {
+    content: url("../img/icons/saco_feijao.png");
+    z-index: 18;
+}
+.saco_cafe {
+    content: url("../img/icons/saco_cafe.png");
+    z-index: 18;
+}
+.saco_milho {
+    content: url("../img/icons/saco_milho.png");
+    z-index: 18;
+}
+.soja {
+	content: url("../img/icons/soja.png");
+    height: 3vh;
+}
+.trigo {
+	content: url("../img/icons/trigo.png");
+    height: 3vh;
+}
+.vaca {
+    content: url("../img/icons/vaca.png");
+}
+.arvore1 {
+	content: url("../img/icons/árvore.png");
+    height: 7.5vh;
+}
+.arvore2 {
+	content: url("../img/icons/árvore2.png");
+    height: 7.5vh;
+}

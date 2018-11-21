@@ -1,0 +1,89 @@
+.infoGeral {
+	opacity: 1;
+	visibility: visible;
+	margin-bottom: 10vh;
+	border: 2px solid #ddd;
+	border-radius: 16px;
+	padding: 8px;
+	background: rgb(234,164,24);
+	transition: 900ms ease all;
+}
+
+.infoExpande {
+	height: 30em;
+	background: rgb(234,164,24);
+	transition: 600ms ease all;
+}
+
+.infoEsconde {
+	transform: translateX(-100px);
+	opacity: 0;
+	visibility: hidden;
+	height: 0;
+	margin: 0;
+	background-color: rgba(92, 91, 87, 0.9);
+	-webkit-transition: transform: 500ms, opacity 600ms, visibility 600ms, height: 700ms 800ms ease all;
+	    transition: transform: 500ms, opacity 600ms, visibility 600ms, height: 700ms 800ms ease all;
+}
+
+.infoTexto {
+	overflow: hidden;
+	position: relative; 
+	line-height: 0.9em;
+	max-height: 3.5em; 
+	text-align: justify;
+	margin-right: -1em;
+	padding-right: 1em;
+}
+.infoTexto::before{
+	content: '...';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.InfoTexto::after{
+	content: '';
+	position: absolute;
+	right: 0;
+	width: 1em;
+	height: 1em;
+	margin-top: 0.2em;
+	background: inherit;
+}
+
+.infoTextoExibe {
+	overflow: visible;
+	position: relative;
+	top: 0;
+	width: 75%;
+	float: left;
+}
+.infoImg {
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	background: white;
+	object-fit: contain;
+}
+
+.infoAlterna {
+	margin-left: 16px;
+}
+.infoFechar {
+	position: absolute;
+	right: 16px;
+	top: 10px;
+}
+
+.info-ambiental {
+    background: rgb(0,190,52);
+}
+
+.info-social {
+    background: rgb(48,198,215);
+}
+
+.info-cultural {
+    background: rgb(234,164,24);
+}

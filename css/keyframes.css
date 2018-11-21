@@ -1,0 +1,200 @@
+@keyframes entrada {
+	0% { transform: translateY(0); }
+	40% { transform: translateY(-1%); }
+	100% { transform: translateY(100%); }
+}
+
+@keyframes fala0 {
+	0% { content: url('../img/fazendeiro/boca normal.png'); }
+	25% { content: url('../img/fazendeiro/boca o.png'); }
+	50% { content: url('../img/fazendeiro/boca a.png'); }
+	75% { content: url('../img/fazendeiro/boca a.png'); }
+	100% { content: url('../img/fazendeiro/boca normal.png'); }
+}
+
+@keyframes fala1 {
+	0% { content: url('../img/fazendeiro/boca normal.png'); }
+	3% { content: url('../img/fazendeiro/boca normal.png'); }
+	6% { content: url('../img/fazendeiro/boca u.png'); }
+	9% { content: url('../img/fazendeiro/boca normal.png'); }
+	12% { content: url('../img/fazendeiro/boca o.png'); }
+	15% { content: url('../img/fazendeiro/boca normal.png'); }
+	18% { content: url('../img/fazendeiro/boca normal.png'); }
+	21% { content: url('../img/fazendeiro/boca o.png'); }
+	24% { content: url('../img/fazendeiro/boca a.png'); }
+	27% { content: url('../img/fazendeiro/boca o.png'); }
+	30% { content: url('../img/fazendeiro/boca i.png'); }
+	33% { content: url('../img/fazendeiro/boca i.png'); }
+	36% { content: url('../img/fazendeiro/boca normal.png'); }
+	39% { content: url('../img/fazendeiro/boca i.png'); }
+	42% { content: url('../img/fazendeiro/boca normal.png'); }
+	45% { content: url('../img/fazendeiro/boca normal.png'); }
+	48% { content: url('../img/fazendeiro/boca u.png'); }
+	51% { content: url('../img/fazendeiro/boca i.png'); }
+	54% { content: url('../img/fazendeiro/boca a.png'); }
+	57% { content: url('../img/fazendeiro/boca normal.png'); }
+	60% { content: url('../img/fazendeiro/boca normal.png'); }
+	63% { content: url('../img/fazendeiro/boca normal.png'); }
+	66% { content: url('../img/fazendeiro/boca o.png'); }
+	69% { content: url('../img/fazendeiro/boca i.png'); }
+	72% { content: url('../img/fazendeiro/boca i.png'); }
+	75% { content: url('../img/fazendeiro/boca o.png'); }
+	78% { content: url('../img/fazendeiro/boca normal.png'); }
+	81% { content: url('../img/fazendeiro/boca i.png'); }
+	84% { content: url('../img/fazendeiro/boca o.png'); }
+	87% { content: url('../img/fazendeiro/boca normal.png'); }
+	100% { content: url('../img/fazendeiro/boca normal.png'); }
+}
+
+@keyframes fala2 {
+	0% { content: url('../img/fazendeiro/boca normal.png'); }
+	4% { content: url('../img/fazendeiro/boca a.png'); }
+	8% { content: url('../img/fazendeiro/boca a.png'); }
+	12% { content: url('../img/fazendeiro/boca normal.png'); }
+	16% { content: url('../img/fazendeiro/boca i.png'); }
+	20% { content: url('../img/fazendeiro/boca u.png'); }
+	24% { content: url('../img/fazendeiro/boca o.png'); }
+	28% { content: url('../img/fazendeiro/boca u.png'); }
+	32% { content: url('../img/fazendeiro/boca normal.png'); }
+	36% { content: url('../img/fazendeiro/boca a.png'); }
+	40% { content: url('../img/fazendeiro/boca normal.png'); }
+	44% { content: url('../img/fazendeiro/boca a.png'); }
+	48% { content: url('../img/fazendeiro/boca normal.png'); }
+	52% { content: url('../img/fazendeiro/boca i.png'); }
+	56% { content: url('../img/fazendeiro/boca a.png'); }
+	60% { content: url('../img/fazendeiro/boca a.png'); }
+	64% { content: url('../img/fazendeiro/boca normal.png'); }
+	68% { content: url('../img/fazendeiro/boca o.png'); }
+	72% { content: url('../img/fazendeiro/boca u.png'); }
+	76% { content: url('../img/fazendeiro/boca i.png'); }
+	80% { content: url('../img/fazendeiro/boca o.png'); }
+	84% { content: url('../img/fazendeiro/boca i.png'); }
+	88% { content: url('../img/fazendeiro/boca normal.png'); }
+	92% { content: url('../img/fazendeiro/boca o.png'); }
+	96% { content: url('../img/fazendeiro/boca o.png'); }
+	100% { content: url('../img/fazendeiro/boca normal.png'); }
+}
+
+@keyframes fala3 {
+	0% { content: url('../img/fazendeiro/boca normal.png'); }
+	3% { content: url('../img/fazendeiro/boca normal.png'); }
+	6% { content: url('../img/fazendeiro/boca a.png'); }
+	9% { content: url('../img/fazendeiro/boca o.png'); }
+	12% { content: url('../img/fazendeiro/boca u.png'); }
+	15% { content: url('../img/fazendeiro/boca i.png'); }
+	18% { content: url('../img/fazendeiro/boca o.png'); }
+	21% { content: url('../img/fazendeiro/boca o.png'); }
+	24% { content: url('../img/fazendeiro/boca normal.png'); }
+	27% { content: url('../img/fazendeiro/boca normal.png'); }
+	30% { content: url('../img/fazendeiro/boca normal.png'); }
+	33% { content: url('../img/fazendeiro/boca o.png'); }
+	36% { content: url('../img/fazendeiro/boca o.png'); }
+	39% { content: url('../img/fazendeiro/boca normal.png'); }
+	42% { content: url('../img/fazendeiro/boca normal.png'); }
+	45% { content: url('../img/fazendeiro/boca normal.png'); }
+	48% { content: url('../img/fazendeiro/boca a.png'); }
+	51% { content: url('../img/fazendeiro/boca o.png'); }
+	54% { content: url('../img/fazendeiro/boca i.png'); }
+	57% { content: url('../img/fazendeiro/boca a.png'); }
+	60% { content: url('../img/fazendeiro/boca normal.png'); }
+	63% { content: url('../img/fazendeiro/boca a.png'); }
+	66% { content: url('../img/fazendeiro/boca normal.png'); }
+	69% { content: url('../img/fazendeiro/boca a.png'); }
+	72% { content: url('../img/fazendeiro/boca a.png'); }
+	75% { content: url('../img/fazendeiro/boca normal.png'); }
+	78% { content: url('../img/fazendeiro/boca o.png'); }
+	81% { content: url('../img/fazendeiro/boca o.png'); }
+	84% { content: url('../img/fazendeiro/boca normal.png'); }
+	100% { content: url('../img/fazendeiro/boca normal.png'); }
+}
+
+@keyframes fala4 {
+	0% { content: url('../img/fazendeiro/boca normal.png'); }
+	3% { content: url('../img/fazendeiro/boca a.png'); }
+	6% { content: url('../img/fazendeiro/boca u.png'); }
+	9% { content: url('../img/fazendeiro/boca a.png'); }
+	12% { content: url('../img/fazendeiro/boca i.png'); }
+	15% { content: url('../img/fazendeiro/boca normal.png'); }
+	18% { content: url('../img/fazendeiro/boca normal.png'); }
+	21% { content: url('../img/fazendeiro/boca i.png'); }
+	24% { content: url('../img/fazendeiro/boca a.png'); }
+	27% { content: url('../img/fazendeiro/boca normal.png'); }
+	30% { content: url('../img/fazendeiro/boca normal.png'); }
+	33% { content: url('../img/fazendeiro/boca o.png'); }
+	36% { content: url('../img/fazendeiro/boca u.png'); }
+	39% { content: url('../img/fazendeiro/boca normal.png'); }
+	42% { content: url('../img/fazendeiro/boca u.png'); }
+	45% { content: url('../img/fazendeiro/boca a.png'); }
+	48% { content: url('../img/fazendeiro/boca normal.png'); }
+	51% { content: url('../img/fazendeiro/boca a.png'); }
+	54% { content: url('../img/fazendeiro/boca o.png'); }
+	57% { content: url('../img/fazendeiro/boca normal.png'); }
+	60% { content: url('../img/fazendeiro/boca a.png'); }
+	63% { content: url('../img/fazendeiro/boca i.png'); }
+	66% { content: url('../img/fazendeiro/boca u.png'); }
+	69% { content: url('../img/fazendeiro/boca i.png'); }
+	72% { content: url('../img/fazendeiro/boca normal.png'); }
+	75% { content: url('../img/fazendeiro/boca i.png'); }
+	78% { content: url('../img/fazendeiro/boca o.png'); }
+	81% { content: url('../img/fazendeiro/boca normal.png'); }
+	84% { content: url('../img/fazendeiro/boca o.png'); }
+	87% { content: url('../img/fazendeiro/boca normal.png'); }
+	90% { content: url('../img/fazendeiro/boca normal.png'); }
+	93% { content: url('../img/fazendeiro/boca i.png'); }
+	96% { content: url('../img/fazendeiro/boca o.png'); }
+	99% { content: url('../img/fazendeiro/boca i.png'); }
+	100% { content: url('../img/fazendeiro/boca normal.png'); }
+}
+
+@keyframes fala5 {
+	0% { content: url('../img/fazendeiro/boca normal.png'); }
+	5% { content: url('../img/fazendeiro/boca o.png'); }
+	10% { content: url('../img/fazendeiro/boca o.png'); }
+	15% { content: url('../img/fazendeiro/boca normal.png'); }
+	20% { content: url('../img/fazendeiro/boca e.png'); }
+	25% { content: url('../img/fazendeiro/boca normal.png'); }
+	30% { content: url('../img/fazendeiro/boca a.png'); }
+	35% { content: url('../img/fazendeiro/boca o.png'); }
+	40% { content: url('../img/fazendeiro/boca normal.png'); }
+	45% { content: url('../img/fazendeiro/boca i.png'); }
+	50% { content: url('../img/fazendeiro/boca a.png'); }
+	55% { content: url('../img/fazendeiro/boca a.png'); }
+	60% { content: url('../img/fazendeiro/boca normal.png'); }
+	65% { content: url('../img/fazendeiro/boca a.png'); }
+	70% { content: url('../img/fazendeiro/boca normal.png'); }
+	75% { content: url('../img/fazendeiro/boca a.png'); }
+	80% { content: url('../img/fazendeiro/boca i.png'); }
+	85% { content: url('../img/fazendeiro/boca normal.png'); }
+	90% { content: url('../img/fazendeiro/boca i.png'); }
+	95% { content: url('../img/fazendeiro/boca o.png'); }
+	100% { content: url('../img/fazendeiro/boca normal.png'); }
+}
+
+@keyframes fala6 {
+	0% { content: url('../img/fazendeiro/boca normal.png'); }
+	4% { content: url('../img/fazendeiro/boca o.png'); }
+	8% { content: url('../img/fazendeiro/boca normal.png'); }
+	12% { content: url('../img/fazendeiro/boca o.png'); }
+	16% { content: url('../img/fazendeiro/boca normal.png'); }
+	20% { content: url('../img/fazendeiro/boca normal.png'); }
+	24% { content: url('../img/fazendeiro/boca i.png'); }
+	28% { content: url('../img/fazendeiro/boca o.png'); }
+	32% { content: url('../img/fazendeiro/boca u.png'); }
+	36% { content: url('../img/fazendeiro/boca a.png'); }
+	40% { content: url('../img/fazendeiro/boca normal.png'); }
+	44% { content: url('../img/fazendeiro/boca a.png'); }
+	48% { content: url('../img/fazendeiro/boca i.png'); }
+	52% { content: url('../img/fazendeiro/boca a.png'); }
+	56% { content: url('../img/fazendeiro/boca i.png'); }
+	60% { content: url('../img/fazendeiro/boca o.png'); }
+	64% { content: url('../img/fazendeiro/boca normal.png'); }
+	68% { content: url('../img/fazendeiro/boca a.png'); }
+	72% { content: url('../img/fazendeiro/boca o.png'); }
+	76% { content: url('../img/fazendeiro/boca normal.png'); }
+	80% { content: url('../img/fazendeiro/boca i.png'); }
+	84% { content: url('../img/fazendeiro/boca normal.png'); }
+	88% { content: url('../img/fazendeiro/boca a.png'); }
+	92% { content: url('../img/fazendeiro/boca i.png'); }
+	96% { content: url('../img/fazendeiro/boca i.png'); }
+	100% { content: url('../img/fazendeiro/boca normal.png'); }
+}

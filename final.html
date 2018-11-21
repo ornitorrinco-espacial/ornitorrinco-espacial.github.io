@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>EcoDados</title>
+
+		<link rel="stylesheet" href="libs/normalize.css"/>
+		<link rel="stylesheet" href="libs/bootstrap.css"/>
+		<link rel="stylesheet" href="libs/font-awesome/css/all.css"/>
+		<script src="libs/min/jquery-3.3.1.min.js"></script>
+  		<script src="libs/min/popper.min.js"></script>
+  		<script src="libs/min/bootstrap.min.js"></script>
+  		<script src="libs/vue.js"></script>
+
+  		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div id="ecoDados">
+			<!-- Barra de navegação com projeto e logo da equipe -->
+			<nav class="navbar navbar-expand-sm navbar-dark fixed-top justify-content-between">
+	            <a class="navbar-brand" href="#">EcoDados</a>
+	            <img id="logoEquipe" src="img/logo-equipe.png" alt="Ornitorrinco Espacial"/>
+	        </nav>
+
+	        <header id="tituloInfografico">
+	        	<h1>A agricultura familiar no Brasil</h1>
+	        </header>
+
+	        <main>
+	        	<div class="container-fluid" id="infografico">
+	        		<transition name="telasInfografico" mode="out-in">
+	        			<div class="row" key="telaInicial" v-if="status == 1">
+	        				<div class="col-sm-4">
+	        					<!-- Informações Gerais -->
+	        					<ul class="list-unstyled">
+									<li v-for="dado in dadosGerais" :key="dado.key" class="infoGeral media" :class="{'infoExpande': isExpand[dado.arrValor], 'infoEsconde': isHide[dado.arrValor]}">
+										<img :src="dado.imageSrc" :alt="dado.imageAlt" class="align-self-start mr-3 infoImg"/>
+										<div class="media-body">
+										<p class="infoTexto" :class="[isExpand[dado.arrValor] ? 'infoTextoExibe' : '']">
+										{{dado.texto}}
+										</p>
+										</div>
+										<i class="infoAlterna" :class="[isExpand[dado.arrValor] ? 'fas fa-minus align-self-start mr-3' : 'fas fa-plus align-self-center mr-3']" @click="mostrarInfo(dado.arrValor)"></i>
+									</li>
+	        					</ul>
+	        				</div>
+	        				<div class="col-sm-1"></div>
+	        				<div class="col-sm-7">
+	        					<img src="img/mapas/brasil.png" alt="Mapa do Brasil" class="mx-auto d-block img-fluid"/>
+	        					<div>
+								  	<button type="button" class="btn btn-lg btn-outline-info botoesBrasil" @click="selecionarRegiao(0)" id="botaoNorte">Norte</button>
+								  	<button type="button" class="btn btn-lg btn-outline-info botoesBrasil" @click="selecionarRegiao(1)" id="botaoNordeste">Nordeste</button>
+								  	<button type="button" class="btn btn-lg btn-outline-info botoesBrasil" @click="selecionarRegiao(2)" id="botaoCentro">Centro Oeste</button>
+								  	<button type="button" class="btn btn-lg btn-outline-info botoesBrasil" @click="selecionarRegiao(3)" id="botaoSudeste">Sudeste</button>
+								  	<button type="button" class="btn btn-lg btn-outline-info botoesBrasil" @click="selecionarRegiao(4)" id="botaoSul">Sul</button>
+								</div>
+								<div class="icones">
+									<iconesmapa v-for="icone in icones['br']" :key="icone.key" :ico="icone" :clique="infoIcon"></iconesmapa>
+								</div>
+	        				</div>
+	        			</div>
+	        			<div class="row" key="telaRegiao" v-else-if="status > 1">
+	        				<transition name="infosRegiao" mode="out-in">
+	        					<div class="col-sm-4">
+		        					<ul class="list-unstyled" v-if="status > 2">
+			        					<li class="infoGeral media infoExpande">
+											<img :class="iconSelecionado.classe" class="align-self-start mr-3 infoImg"/>
+											<div class="media-body">
+											<p class="infoTexto infoTextoExibe">{{iconSelecionado.infoIcone}}</p>
+											</div>
+											<i class="infoFechar far fa-times-circle" @click="retornar"></i>
+										</li>
+									</ul>
+								</div>
+		        			</transition>
+		        			<div class="col-sm-1"></div>
+	        				<div :class="classeMapaR">
+	        					<img :src="regiaoSelecionada.mapaSrc" class="mx-auto d-block img-fluid mapaRegiao" :key="regiaoSelecionada.key" :id="regiaoSelecionada.id"/>
+								<div class="icones">
+									<iconesregiao v-for="icone in icones[regiaoSelecionada.id]" :key="icone.key" :ico="icone" :clique="infoIcon"></iconesregiao>
+								</div>
+	        				</div>
+	        			</div>
+	        		</transition>
+	        	</div>
+	        </main>
+	        <aside>
+				<i v-show="status > 1" class="far fa-times-circle" id="voltar" @click="retornar"></i>
+				<i class="far fa-question-circle" id="ajudar" data-toggle="modal" data-target="#sobre"></i>
+			</aside>
+			<article class="displayFazendeiro">
+				<transition name="agricultor" mode="out-in">
+					<div class="fazendeiro" :style="falas[contadorFala].styles" v-if="agricultorAtivo"></div>
+				</transition>
+				<transition name="falaagricultor" mode="out-in">
+					<div class="falaFazendeiro" v-if="agricultorFala">
+						<p>{{falas[contadorFala].texto}}</p>
+					</div>
+				</transition>
+			</article>
+			<!-- Sobre agricultura familiar -->
+			<article>
+				<div class="modal fade" id="sobre">
+				  	<div class="modal-dialog modal-dialog-centered">
+				    	<div class="modal-content">
+
+				      		<!-- Cabeçalho -->
+				      		<div class="modal-header">
+				        		<h4 class="modal-title">Agricultura familiar</h4>
+				        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+				      		</div>
+				      		<!-- Corpo -->
+				      		<div class="modal-body">
+				      			<h5>Definições</h5>
+				        		<ol style="font-size: 0.9em">
+				                    <li>Não detenha, a qualquer título, área maior do que 4 (quatro) módulos fiscais;</li>
+				                    <li>Utilize predominantemente mão-de-obra da própria família nas atividades econômicas do seu estabelecimento ou empreendimento;</li>
+				                    <li>Tenha percentual mínimo da renda familiar originada de atividades econômicas do seu estabelecimento ou empreendimento, na forma definida pelo Poder Executivo;</li>
+				                    <li>O proprietário - Dirija seu estabelecimento ou empreendimento com sua família.</li>
+				                </ol>
+				      		</div>
+
+				    	</div>
+				  	</div>
+				</div>
+			</article>
+			<!-- Sobre o projeto -->
+			<article>
+				<div class="modal fade" id="projeto">
+				  	<div class="modal-dialog modal-dialog-centered">
+				    	<div class="modal-content">
+
+				      		<!-- Cabeçalho -->
+				      		<div class="modal-header">
+				        		<h4 class="modal-title">Projeto EcoDados</h4>
+				        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+				      		</div>
+				      		<!-- Corpo -->
+				      		<div class="modal-body">
+				      			
+				      		</div>
+
+				    	</div>
+				  	</div>
+				</div>
+			</article>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>

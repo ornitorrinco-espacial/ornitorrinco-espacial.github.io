@@ -1,0 +1,52 @@
+.telasInfografico-enter, .telas-leave-to {
+    transform: scale(0.2);
+    opacity: 0;
+    position: absolute;
+}
+
+.telasInfografico-enter-active {
+    transition: all .3s ease-out;
+}
+
+.telasInfografico-leave-active {
+    transition: all .6s ease-in;
+}
+
+/* Fazendeiro */
+.agricultor-enter-active {
+  	animation: entrada .5s reverse;
+    animation-delay: 0.75s;
+}
+.agricultor-leave-active {
+  	animation: entrada .5s;
+    animation-delay: 2s;
+}
+
+.falaagricultor-enter, .falaagricultor-leave-to {
+	rotate: 90deg;
+	height: 0;
+}
+
+.falaagricultor-enter-to, .falaagricultor-leave {
+	rotate: 0deg;
+	height: initial;
+}
+
+.falaagricultor-enter-active, .falaagricultor-leave-active {
+	transition: 0.7s ease-in all;
+	transition-delay: 1s;
+}
+
+.infosRegiao-enter, .infosRegiao-leave-to {
+  transform: translateX(-33%);
+  opacity: 0;
+}
+
+.infosRegiao-enter-to, .infosRegiao-leave {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.infosRegiao-enter-active, .infosRegiao-leave-active {
+  transition: 1s ease-in-out all;
+}
