@@ -450,5 +450,7 @@ var vm = new Vue({
 $(document).ready(function(){
 
     //Tooltip do ícone de ajuda
-    $('#ajudar').tooltip({title: 'Sobre o infográfico', placement: 'right'});
+    $('#ajudar').tooltip({title: 'Sobre o infográfico', placement: 'left'});
+    //Tooltip do ícone de ajuda
+    $('#logoEquipe').tooltip({title: 'Créditos', placement: 'left'});
 });
