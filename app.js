@@ -74,12 +74,12 @@ var vm = new Vue({
 					{
 						key: 'br01',
 						classe: 'nuvem',
-						posicao: 'left: 4vw; top: 10vh;'
+						posicao: 'left: 17vw; top: 1vh;'
 					},
 					{
 						key: 'br02',
 						classe: 'nuvem',
-						posicao: 'left: 40vw; top: 20vh;'
+						posicao: 'left: 35vw; top: 17vh;'
 					},
 					{
 						key: 'br03',
@@ -99,7 +99,7 @@ var vm = new Vue({
 					{
 						key: 'br06',
 						classe: 'soja',
-						posicao: 'left: 7vw; top: 7vh;'
+						posicao: 'left: 30vw; top: 32vh;'
 					},
 					{
 						key: 'br07',
@@ -129,7 +129,7 @@ var vm = new Vue({
 					{
 						key: 'br12',
 						classe: 'casa2',
-						posicao: 'left: 37vw; top: 43vh;'
+						posicao: 'left: 37vw; top: 35vh;'
 					},
 					{
 						key: 'br13',
@@ -144,47 +144,37 @@ var vm = new Vue({
 					{
 						key: 'br15',
 						classe: 'leite',
-						posicao: 'left: 5vw; top: 6vh;'
+						posicao: 'left: 52vw; top: 45vh;'
 					},
 					{
 						key: 'br16',
 						classe: 'casa1',
-						posicao: 'left: 6vw; top: 7vh;'
+						posicao: 'left: 8vw; top: 21vh;'
 					},
 					{
 						key: 'br17',
 						classe: 'casa1',
-						posicao: 'left: 7vw; top: 8vh;'
-					},
-					{
-						key: 'br18',
-						classe: 'casa2',
-						posicao: 'left: 8vw; top: 9vh;'
+						posicao: 'left: 29vw; top: 19vh;'
 					},
 					{
 						key: 'br19',
-						classe: 'feijao',
-						posicao: 'left: 9vw; top: 10vh;'
+						classe: 'saco_feijao',
+						posicao: 'left: 48vw; top: 10vh;'
 					},
 					{
 						key: 'br20',
 						classe: 'galinha',
-						posicao: 'left: 10vw; top: 11vh;'
-					},
-					{
-						key: 'br21',
-						classe: 'trigo',
-						posicao: 'left: 2vw; top: 4vh;'
+						posicao: 'left: 42vw; top: 32vh;'
 					},
 					{
 						key: 'br22',
-						classe: 'milho',
-						posicao: 'left: 4vw; top: 6vh;'
+						classe: 'saco_milho',
+						posicao: 'left: 20vw; top: 20vh;'
 					},
 					{
 						key: 'br23',
 						classe: 'soja',
-						posicao: 'left: 6vw; top: 8vh;'
+						posicao: 'left: 27vw; top: 27vh;'
 					}
 				],
 			no: [
