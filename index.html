@@ -20,7 +20,7 @@
 			<!-- Barra de navegação com projeto e logo da equipe -->
 			<nav class="navbar navbar-expand-sm navbar-dark fixed-top justify-content-between">
 	            <a class="navbar-brand" href="#">EcoDados</a>
-	            <img id="logoEquipe" src="img/logo-equipe.png" alt="Ornitorrinco Espacial"/>
+	            <img id="logoEquipe" src="img/logo-equipe.png" alt="Ornitorrinco Espacial" data-toggle="modal" data-target="#projeto"/>
 	        </nav>
 
 	        <header id="tituloInfografico">
@@ -37,8 +37,8 @@
 									<li v-for="dado in dadosGerais" :key="dado.key" class="infoGeral media" :class="{'infoExpande': isExpand[dado.arrValor], 'infoEsconde': isHide[dado.arrValor]}">
 										<img :src="dado.imageSrc" :alt="dado.imageAlt" class="align-self-start mr-3 infoImg"/>
 										<div class="media-body">
-										<p class="infoTexto" :class="[isExpand[dado.arrValor] ? 'infoTextoExibe' : '']">
-										{{dado.texto}}
+										<p class="infoTexto" :class="[isExpand[dado.arrValor] ? 'infoTextoExibe' : '']" v-html="dado.texto">
+										
 										</p>
 										</div>
 										<i class="infoAlterna" :class="[isExpand[dado.arrValor] ? 'fas fa-minus align-self-start mr-3' : 'fas fa-plus align-self-center mr-3']" @click="mostrarInfo(dado.arrValor)"></i>
@@ -128,7 +128,7 @@
 			<!-- Sobre o projeto -->
 			<article>
 				<div class="modal fade" id="projeto">
-				  	<div class="modal-dialog modal-dialog-centered">
+				  	<div class="modal-dialog modal-lg modal-dialog-centered">
 				    	<div class="modal-content">
 
 				      		<!-- Cabeçalho -->
@@ -138,9 +138,54 @@
 				      		</div>
 				      		<!-- Corpo -->
 				      		<div class="modal-body">
-				      			
+				      			<h3 class="text-center">Universidade Federal do Ceará</h3>
+				      			<h4 class="text-center">Sistemas e Mídias Digitais</h4>
+				      			<div class="row">
+				      				<div class="col-sm-6">
+				      					<h5>Professores</h5>
+				      					<ul>
+				      						<li>
+				      							<strong>Cognição e Tecnologias Digitais</strong>
+				      							<ul>
+						      						<li>Jose Aires De Castro Filho</li>
+						      						<li>Raquel Santiago Freire</li>
+						      					</ul>
+						      				</li>
+						      				<li>
+				      							<strong>Narrativas Multimídia</strong>
+				      							<ul>
+						      						<li>Glaudiney Moreira Mendonca Junior</li>
+				      								<li>Georgia Da Cruz Pereira</li>
+						      					</ul>
+						      				</li>
+						      				<li>
+				      							<strong>Comunicação Visual I</strong>
+				      							<ul>
+						      						<li>Lucas Mamede Barbalho</li>
+						      					</ul>
+						      				</li>
+						      				<li>
+				      							<strong>Programação II</strong>
+				      							<ul>
+						      						<li>Alysson Diniz Dos Santos</li>
+						      					</ul>
+						      				</li>
+				      					</ul>
+				      				</div>
+				      				<div class="col-sm-6">
+				      					<h5>Integrantes</h5>
+				      					<ul>
+				      						<li>Daniela R Felix</li>
+				      						<li>José Guilherme Chaves Menezes</li>
+				      					</ul>
+				      					<h5>Monitores</h5>
+				      					<ul>
+				      						<li>Amanda</li>
+				      						<li>Sara</li>
+				      					</ul>
+				      				</div>
+				      			</div>
 				      		</div>
-
 				    	</div>
 				  	</div>
 				</div>

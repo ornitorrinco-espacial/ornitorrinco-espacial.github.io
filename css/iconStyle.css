@@ -3,7 +3,7 @@
     position: absolute;
     float: right;
     width: auto;
-    height: 5vh;
+    height: 7.5%;
     z-index: 20;
     transition: all 0.4s linear;
 }
@@ -21,7 +21,7 @@
 }
 .casa2 {
     width: auto;
-    height: 10%;
+    height: 12%;
     content: url("../img/icons/casa 2.png");
 }
 .fazendeiro {
@@ -29,7 +29,7 @@
 }
 .feijao {
     content: url("../img/icons/feijão.png");
-    height: 3vh;
+    height: 5%;
 }
 .galinha {
     content: url("../img/icons/galinha.png");
@@ -39,19 +39,19 @@
 }
 .mandioca {
     content: url("../img/icons/mandioca.png");
-    height: 3vh;
+    height: 5%;
 }
 .milho {
     content: url("../img/icons/milho.png");
-    height: 3vh;
+    height: 5%;
 }
 .mudinhas {
     content: url("../img/icons/mudinhas.png");
-    height: 4vh;
+    height: 7%;
 }
 .nuvem {
     content: url("../img/icons/nuvem.png");
-    height: 7.5%;
+    height: 15%;
     transition: all 0.5s ease;
 }
 .nuvem:hover {
@@ -60,7 +60,7 @@
 }
 .planta {
     content: url("../img/icons/planta.png");
-    height: 7.5vh;
+    height: 12.5%;
 }
 .porco {
 	content: url("../img/icons/porco.png");
