@@ -75,7 +75,7 @@ nav {
 /* Estilos para o fazendeiro */
 .displayFazendeiro {
 	position: absolute;
-	bottom: 16px;
+	bottom: 0;
 	left: 24vw;
 }
 
@@ -87,22 +87,21 @@ nav {
 }
 
 .falaFazendeiro {
-	content: "";
+	background: url("img/balao.png") no-repeat;
+	background-clip: border-box;
+	background-size: 10vw auto;
 	position: absolute;
-	top: -10%;
-	right: -20%;
-	width: 16vw;
+	top: -14%;
+	right: -16%;
+	width: 14vw;
 	height: 9vw;
-	background: rgb(52, 151, 66);
-	border: #ddd solid 1px;
-	border-radius: 4px 4px 4px 4px;
-	box-shadow: #111 1px 1px 0px;
+	object-fit: contain;
 }
 
 .falaFazendeiro > p {
 	overflow: hidden;
-	color: white;
-	margin: 4px;
+	color: black;
+	margin: 16px;
 }
 
 /* Estilos do mapa */

@@ -124,22 +124,22 @@ var vm = new Vue({
 					{
 						key: 'br11',
 						classe: 'casa1',
-						posicao: 'left: 1vw; top: 2vh;'
+						posicao: 'left: 45vw; top: 2vh;'
 					},
 					{
 						key: 'br12',
 						classe: 'casa2',
-						posicao: 'left: 2vw; top: 3vh;'
+						posicao: 'left: 37vw; top: 43vh;'
 					},
 					{
 						key: 'br13',
-						classe: 'porco',
-						posicao: 'left: 3vw; top: 4vh;'
+						classe: 'saco_cafe',
+						posicao: 'left: 45vw; top: 36vh;'
 					},
 					{
 						key: 'br14',
-						classe: 'vaca',
-						posicao: 'left: 4vw; top: 5vh;'
+						classe: 'saco_feijao',
+						posicao: 'left: 50vw; top: 17vh;'
 					},
 					{
 						key: 'br15',
