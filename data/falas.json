@@ -1,0 +1,37 @@
+{
+	"fala0": {
+		"key": "fala0",
+		"texto": "Olá!",
+		"styles": "animation: fala0 0.8s linear both; animation-iteration-count: 1; animation-delay: 2s;"
+	},
+	"fala1": {
+		"key": "fala1",
+		"texto": "Meu nome é João e irei te guiar pelo infográfico.",
+		"styles": "animation: fala1 3s linear both; animation-iteration-count: 1;"
+	},
+	"fala2": {
+		"key": "fala2",
+		"texto": "A agricultura familiar é muito importante,",
+		"styles": "animation: fala2 2.8s linear both; animation-iteration-count: 1;"
+	},
+	"fala3": {
+		"key": "fala3",
+		"texto": "Gera muitos empregos e leva comida a casa de todos.",
+		"styles": "animation: fala3 3.6s linear both; animation-iteration-count: 1;"
+	},
+	"fala4": {
+		"key": "fala4",
+		"texto": "A sua direita, temos um mapa do Brasil divido por regiões.",
+		"styles": "animation: fala4 4s linear both; animation-iteration-count: 1;"
+	},
+	"fala5": {
+		"key": "fala5",
+		"texto": "Por que não tenta navegar por elas?",
+		"styles": "animation: fala5 3.2s linear both; animation-iteration-count: 1;"
+	},
+	"fala6": {
+		"key": "fala6",
+		"texto": "Você pode encontrar várias informações legais.",
+		"styles": "animation: fala6 3.4s linear both; animation-iteration-count: 1;"
+	}
+}

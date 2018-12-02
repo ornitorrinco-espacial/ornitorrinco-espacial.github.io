@@ -1,0 +1,112 @@
+{
+	"icon1" : {
+		"key": "br00",
+		"classe": "mandioca",
+		"posicao": "left: 20vw; top: 16vh;"
+	},
+	"icon2": {
+		"key": "br01",
+		"classe": "nuvem",
+		"posicao": "left: 17vw; top: 1vh;"
+	},
+	"icon3": {
+		"key": "br02",
+		"classe": "nuvem",
+		"posicao": "left: 35vw; top: 17vh;"
+	},
+	"icon4": {
+		"key": "br03",
+		"classe": "planta",
+		"posicao": "left: 7vw; top: 25vh;"
+	},
+	"icon5": {
+		"key": "br04",
+		"classe": "arvore1",
+		"posicao": "left: 10vw; top: 35vh;"
+	},
+	"icon6": {
+		"key": "br05",
+		"classe": "arvore2",
+		"posicao": "left: 23vw; top: 30vh;"
+	},
+	"icon7": {
+		"key": "br06",
+		"classe": "soja",
+		"posicao": "left: 30vw; top: 32vh;"
+	},
+	"icon8": {
+		"key": "br07",
+		"classe": "trigo",
+		"posicao": "left: 30vw; top: 30vh;"
+	},
+	"icon9": {
+		"key": "br08",
+		"classe": "saco",
+		"posicao": "left: 19vw; top: 13vh;"
+	},
+	"icon10": {
+		"key": "br09",
+		"classe": "vaca",
+		"posicao": "left: 48vw; top: 35vh;"
+	},
+	"icon11": {
+		"key": "br10",
+		"classe": "porco",
+		"posicao": "left: 41vw; top: 28vh;"
+	},
+	"icon12": {
+		"key": "br11",
+		"classe": "casa1",
+		"posicao": "left: 45vw; top: 2vh;"
+	},
+	"icon13": {
+		"key": "br12",
+		"classe": "casa2",
+		"posicao": "left: 37vw; top: 35vh;"
+	},
+	"icon14": {
+		"key": "br13",
+		"classe": "saco_cafe",
+		"posicao": "left: 45vw; top: 36vh;"
+	},
+	"icon15": {
+		"key": "br14",
+		"classe": "saco_feijao",
+		"posicao": "left: 50vw; top: 17vh;"
+	},
+	"icon16": {
+		"key": "br15",
+		"classe": "leite",
+		"posicao": "left: 52vw; top: 45vh;"
+	},
+	"icon17": {
+		"key": "br16",
+		"classe": "casa1",
+		"posicao": "left: 10vw; top: 21vh;"
+	},
+	"icon18": {
+		"key": "br17",
+		"classe": "casa1",
+		"posicao": "left: 27vw; top: 17vh;"
+	},
+	"icon19": {
+		"key": "br19",
+		"classe": "saco_feijao",
+		"posicao": "left: 48vw; top: 10vh;"
+	},
+	"icon20": {
+		"key": "br20",
+		"classe": "galinha",
+		"posicao": "left: 42vw; top: 32vh;"
+	},
+	"icon21": {
+		"key": "br22",
+		"classe": "saco_milho",
+		"posicao": "left: 20vw; top: 20vh;"
+	},
+	"icon22": {
+		"key": "br23",
+		"classe": "soja",
+		"posicao": "left: 27vw; top: 27vh;"
+	}
+}

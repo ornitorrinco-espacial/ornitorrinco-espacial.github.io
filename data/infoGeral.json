@@ -1,0 +1,23 @@
+{
+	"dado1": {
+		"key": "dado1",
+		"arrValor": 0,
+		"texto": "A agricultura familiar representa 84,4% dos estabelecimentos agrícolas do país, ocupando uma área equivalente a mais de 4 milhões de estádios do Maracanã! (80,25 milhões de hectares)<br>Além disso, mais de 74% dos postos de trabalhos rurais estão sob regime de agricultura familiar.",
+		"imageSrc": "img/icons/casa 1.png",
+		"imageAlt": "Agricultura familiar"
+	},
+	"dado2": {
+		"key": "dado2",
+		"arrValor": 1,
+		"texto": "A agricultura familiar é responsável por garantir boa parte da segurança alimentar do País, como importante fornecedora de alimentos para o mercado interno. <br>Mais de 80% da mandioca, 70% do feijão e quase 70% da prdução de leite vêm de estabelecimentos de agricultura familiar, além dela possuir participação importante em outros produtos.",
+		"imageSrc": "img/icons/saco.png",
+		"imageAlt": "Produção de café"
+	},
+	"dado3": {
+		"key": "dado3",
+		"arrValor": 2,
+		"texto": "30% do valor repassado pelo Programa Nacional de Alimentação Escolar (PNAE), é investido na compra direta de produtos da agricultura familiar, medida que estimula o desenvolvimento econômico e sustentável das comunidades.",
+		"imageSrc": "img/icons/café.png",
+		"imageAlt": "Produção de café"
+	}
+}

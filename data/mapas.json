@@ -1,0 +1,27 @@
+{
+	"norte": {
+		"key": 0,
+		"id": "no",
+		"mapaSrc": "img/mapas/norte.png"
+	},
+	"nordeste": {
+		"key": 1,
+		"id": "ne",
+		"mapaSrc": "img/mapas/nordeste.png"
+	},
+	"centroo": {
+		"key": 2,
+		"id": "co",
+		"mapaSrc": "img/mapas/centroOeste.png"
+	},
+	"sudeste": {
+		"key": 3,
+		"id": "se",
+		"mapaSrc": "img/mapas/sudeste.png"
+	},
+	"sul": {
+		"key": 4,
+		"id": "sul",
+		"mapaSrc": "img/mapas/sul.png"
+	}
+}
